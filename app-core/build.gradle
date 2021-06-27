@@ -1,0 +1,20 @@
+plugins {
+    id 'java_plugin_gradle.java-application-conventions'
+}
+
+dependencies {
+    implementation project(':app-spi')
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'org.cyrilou.java_plugin_gradle.core.App'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.cyrilou.java_plugin_gradle.core.App'
+        )
+    }
+}

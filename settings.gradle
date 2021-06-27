@@ -1,0 +1,7 @@
+rootProject.name = 'java-plugin-gradle'
+include 'app-spi'
+include 'app-core'
+include 'app-storage-alpha'
+include 'app-storage-gamma'
+include 'app-authenticator-epsilon'
+
